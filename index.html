@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">PAPRI BISWAS</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="theme-toggle" title="Toggle dark mode">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Hello, I'm <span class="typed-text"></span></h1>
+    <p>A Passionate Web Developer</p>
+    <a href="#projects" class="btn">View Projects</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm a passionate and curious web developer eager to kickstart my career in web development. I recently completed my training in HTML, CSS, JavaScript, and PHP, and have been building personal projects to sharpen my skills and explore real-world applications.
+
+Though I’m a fresher, I bring strong problem-solving abilities, a continuous learning mindset, and a genuine enthusiasm for creating user-friendly, responsive websites. I enjoy turning ideas into interactive digital experiences and always strive to write clean, efficient code.
+
+I'm actively looking for opportunities where I can grow as a developer, contribute to meaningful projects, and collaborate with experienced teams.
+
+Let’s build something great together!</p>
+  </section>
+
+<section id="resume" class="resume-section fade-in">
+  <div class="resume-card">
+    <h2>📄 Resume</h2>
+    <p>Interested in working together? Download my resume to learn more about my skills and background.</p>
+    <a href="resume.pdf" download class="download-btn">
+      <span>Download Resume</span>
+      <svg class="download-icon" viewBox="0 0 24 24" fill="none">
+        <path d="M12 3v12m0 0l-4-4m4 4l4-4m-7 8h10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </div>
+</section>
+
+
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project fade-in">
+        <h3>Project One</h3>
+        <p>A creative frontend web design using React.</p>
+        <a href="#">View Demo</a>
+      </div>
+      <div class="project fade-in">
+        <h3>Project Two</h3>
+        <p>Backend integration with Node.js and MongoDB.</p>
+        <a href="#">View Demo</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="certificates" class="certificates-section fade-in">
+  <h2>🎓 Certificates</h2>
+  <div class="certificates-grid">
+    <div class="certificate-card">
+      <img src="certificates/html-css.png" alt="HTML & CSS Certificate">
+      <h3>HTML & CSS</h3>
+      <p>Issued by Coursera · Mar 2025</p>
+      <a href="certificates/html-css.pdf" target="_blank" class="view-btn">View Certificate</a>
+    </div>
+    <div class="certificate-card">
+      <img src="certificates/javascript.png" alt="JavaScript Certificate">
+      <h3>JavaScript Basics</h3>
+      <p>Issued by Udemy · Apr 2025</p>
+      <a href="certificates/javascript.pdf" target="_blank" class="view-btn">View Certificate</a>
+    </div>
+    <!-- Add more certificates here -->
+  </div>
+</section>
+
+
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Papri Biswas. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
