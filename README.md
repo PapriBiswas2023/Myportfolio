@@ -13,7 +13,7 @@ This is a responsive and user-friendly portfolio website designed to:
 
 ## 🌐 Live Demo
 
-👉 [View Live Portfolio]([#](https://taupe-pegasus-09cc03.netlify.app/)) &nbsp; 
+👉 [View Live Portfolio](https://taupe-pegasus-09cc03.netlify.app/) &nbsp; 
 
 
 ## 🛠️ Built With
